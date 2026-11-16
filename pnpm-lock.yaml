@@ -174,6 +174,15 @@ settings:
 importers:
 
   .:
+    devDependencies:
+      oxfmt:
+        specifier: ^0.78.0
+        version: 0.78.0
+      oxlint:
+        specifier: ^1.93.0
+        version: 1.93.0
+
+  apps/desktop:
     dependencies:
       electron-squirrel-startup:
         specifier: ^1.0.1
@@ -230,12 +239,6 @@ importers:
       electron:
         specifier: 45.3.2
         version: 45.3.2
-      oxfmt:
-        specifier: ^0.78.0
-        version: 0.78.0
-      oxlint:
-        specifier: ^1.93.0
-        version: 1.93.0
       tailwindcss:
         specifier: ^4.3.5
         version: 4.3.5
