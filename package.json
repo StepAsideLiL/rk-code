@@ -10,7 +10,7 @@
     "name": "Rifat Khan",
     "email": "rifat6633@gmail.com"
   },
-  "main": ".vite/build/main.cjs",
+  "main": ".vite/build/index.cjs",
   "scripts": {
     "start": "electron-forge start",
     "package": "electron-forge package",
